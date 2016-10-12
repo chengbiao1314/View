@@ -2,6 +2,10 @@ package imcs.cb.com.viewapplication;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+
+import view.TimerTextView;
 
 public class MainActivity extends Activity {
 
@@ -9,5 +13,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Log.v("main:","********************************** > " + Thread.currentThread().getName());
     }
 }

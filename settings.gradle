@@ -1,1 +1,1 @@
-include ':app',':groupitemdemo'
+include ':app', ':groupitemdemo', ':sliderlistview'
